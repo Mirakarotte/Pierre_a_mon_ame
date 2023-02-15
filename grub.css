@@ -1,7 +1,14 @@
 header{
-    background-color: skyblue;
+    background-color: black;
 }
 
-img{
-    margin-left: 5%;
+.stepca{
+    margin-left: 10%;
+}
+
+body{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
 }
