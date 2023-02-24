@@ -1,8 +1,8 @@
 header{
-    background-color: black;
+    background-color: #7858AF;
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
     height: 80px;
@@ -14,10 +14,10 @@ header{
 }
 
 body{
-    margin-left:0px;
-    margin-right:0px;
-    margin-top:0px;
-    margin-bottom:0px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .r{
@@ -49,5 +49,37 @@ body{
 }
 
 main{
-    background-color: darkslateblue;
+    background-color: black;
+}
+
+section{
+    margin-left: 10%;
+    width: 30%;
+    border: 4mm ridge rgba(120, 88, 175, .6);
+    background-color: #3D3151;
+}
+
+article{
+    width: 92%;
+    border: 4mm ridge rgba(120, 88, 175, .6);
+    background-color: #3D3151;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+footer{
+    background-color: #7858AF;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    height: 80px;
+    justify-content: flex-start;
 }
