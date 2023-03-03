@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html>
-    
+<!doctype html>
+<html lang="fr">
+
 <!--                                              \                                       /\  
  ____   o    ___     ____    ____    ___         ____                ____                ____            ___
 |    |      |       |  __|  |  __|  |           |    |      |\  /|  |    |  |\   |      |    |  |\  /|  |
@@ -9,15 +9,14 @@
 |       |   |___    |_|     |_|     |___        |    |      |    |  |____|  |   \|      |    |  |    |  |___
 -->
 
-<head> 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
-    <link rel="stylesheet" href="grub.css">
-    <link rel="icon" href="logo_simplifie.png" type="image/png">
-</head>
-
-<body>
+    <head>
+        <meta charset="utf-8">       
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>Tetris</title>
+        <link rel="stylesheet" type="text/css" href="grub.css">
+        <script src="tetris.js"></script>
+        <script src="Matrix.js"></script>
+    </head>
     <header>
         <img src="log.png" class="stepca">
         <a class="r"></a>
@@ -30,16 +29,15 @@
         <a href="Login.html" class="header">Login</a>
         <a href="Forum.html" class="header">Forum</a>
     </header>
-    
-    <main>
-        <canvas id="Matrix"></canvas>
-        <script src="Matrix.js"></script>
-    </main>
-
+    <body>
+        
+        <main class="Tetris">
+            <canvas id='my-canvas'></canvas>
+        </main>
+    </body>
     <footer>            
         <br>
             
         <br>
     </footer>
-</body>
 </html>
